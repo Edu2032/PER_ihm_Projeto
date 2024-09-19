@@ -1,14 +1,14 @@
-import Acessar from "./Components/Button";
-import Header from "./Components/Header";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Abertura';
 function App() {
 
   return (
-    <>
-      <Header/>
-      <Acessar/>
-    </>
-  )
-
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App
