@@ -1,0 +1,23 @@
+.header {
+    width: 1193px;
+    height: 149px;
+    flex-shrink: 0;
+    background-color: #fff9f9;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 319px;
+    height: 149px;
+}
+
+.header p {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 41px;
+    left: 437px;
+}
