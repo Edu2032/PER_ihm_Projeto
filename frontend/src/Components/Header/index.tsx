@@ -5,11 +5,11 @@ function Header() {
 
     return (
         <>
-
             <div className="header">
                 <img src={per} alt="logo" />
                 <p>Automação Industrial</p>
             </div>
+           
         </>
 
     )

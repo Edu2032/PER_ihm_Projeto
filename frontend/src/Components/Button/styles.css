@@ -1,0 +1,21 @@
+.button-inicio {
+    display: flex;
+    border-radius: 25px;
+    background: #F9F4F4;
+    padding: 8px 10px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 918px;
+    height: 108px;
+}
+
+.button-inicio p {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 348px;
+    top:8px;
+}
