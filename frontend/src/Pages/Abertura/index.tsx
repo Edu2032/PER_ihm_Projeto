@@ -1,15 +1,11 @@
 import Acessar from "../../Components/Button"
-import Header from "../../Components/Header"
 
 function Home() {
 
     return (
-        <>
-            <div>
-                <Header />
+            <div>      
                 <Acessar />
             </div>
-        </>
     )
 
 }
