@@ -1,0 +1,18 @@
+.text-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.text {
+    margin: 10px;
+    display: flex;
+    gap: 21px;
+    flex-direction: row;
+    font-style: normal;
+    font-size: 46px;
+    margin-left: 100px;
+}

@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom'
 import './styles.css'
 function Acessar() {
     return (
         <>
-            <div className="button-inicio">
-                <p>Acessar</p>
-            </div>
+            <Link to={'/Menu'}>
+                <div className="button-inicio">
+                    <p>Acessar</p>
+                </div>
+            </Link>
         </>
 
     )
