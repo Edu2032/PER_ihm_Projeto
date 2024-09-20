@@ -16,3 +16,30 @@
     font-size: 46px;
     margin-left: 100px;
 }
+
+.btn-peso{
+    margin-left: 113px;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    position: relative;
+    margin-top: 134px;
+}
+
+.text-gross{
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    font-size: 30px;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+
+.btn-move {
+    margin-left: 1099px;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    position: absolute;
+    margin-top: 0px;
+}
