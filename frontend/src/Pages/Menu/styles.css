@@ -36,10 +36,16 @@
 }
 
 .btn-move {
-    margin-left: 1099px;
+    margin-left: 600px;
     display: flex;
     flex-direction: row;
     gap: 21px;
-    position: absolute;
     margin-top: 0px;
+}
+
+.text-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
 }

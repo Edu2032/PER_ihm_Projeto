@@ -27,6 +27,9 @@ function Menu() {
                 <p>Peso</p>
                 <p>####</p>
             </div>
+            <div className='text-principal'>
+                <p>####</p>
+            </div>
         </div>
     )
 }
