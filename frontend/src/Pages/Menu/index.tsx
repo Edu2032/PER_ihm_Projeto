@@ -4,7 +4,15 @@ import ArrowLeft from '../../Components/ArrowLeft'
 import ArrowRight from '../../Components/ArrowRight'
 import Min from '../../Components/Min'
 import './styles.css'
-function Menu() {
+
+type Props = {
+    text : string;
+    text2 : string;
+    text3 : string;
+}
+
+
+function Menu({text,text2, text3} : Props) {
 
     return (
         <div>
@@ -12,7 +20,7 @@ function Menu() {
                 <img src={per} alt="logo" />
                 <div className='text'>
                     <p>Receita</p>
-                    <p>#############</p>
+                    <p>{text3}</p>
                 </div>
             </div>
             <div className='btn-peso'>
@@ -25,10 +33,10 @@ function Menu() {
             </div>
             <div className='text-gross'>
                 <p>Peso</p>
-                <p>####</p>
+                <p>{text}</p>
             </div>
             <div className='text-principal'>
-                <p>####</p>
+                <p>{text2}</p>
             </div>
         </div>
     )

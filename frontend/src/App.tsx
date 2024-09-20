@@ -8,10 +8,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Menu" element={<Menu />} />
+        <Route path="/Menu" element={<Menu text='####' text2='####' text3='####'/>} />
       </Routes>
     </Router>
-
   );
 }
 
