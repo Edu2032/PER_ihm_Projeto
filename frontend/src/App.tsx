@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Header />
       <Routes>
-
         <Route path="/" element={<Home />} />
         <Route path="/Menu" element={<Menu text='####' text2='####' text3='####' />} />
       </Routes>
