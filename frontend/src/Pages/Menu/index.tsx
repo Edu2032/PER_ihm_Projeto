@@ -5,7 +5,7 @@ import Min from '../../Components/Min'
 import './styles.css'
 
 type Props = {
-    text : number;
+    text: number;
     text2: string;
     text3: string;
 }
